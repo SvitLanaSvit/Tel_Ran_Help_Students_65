@@ -17,5 +17,14 @@ public class Task4 {
         Box boxWithTwoArgumentsConstructor = new Box(2,4);
         Box boxWithOneArgumentConstructor = new Box(4);
         Box boxWithNoArgumentsConstructor = new Box();
+
+        System.out.println("--------------NO-----------------");
+        BoxNew boxNewWithNoArgumentsConstructor = new BoxNew();
+        System.out.println("--------------All------------------");
+        BoxNew boxNewWithAllArgumentsConstructor = new BoxNew(3,2,4);
+        System.out.println("--------------TWO----------------");
+        BoxNew boxNewWithTwoArgumentsConstructor = new BoxNew(2,4);
+        System.out.println("--------------ONE----------------");
+        BoxNew boxNewWithOneArgumentConstructor = new BoxNew(4);
     }
 }
